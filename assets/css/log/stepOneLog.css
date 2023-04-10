@@ -1,0 +1,154 @@
+.w--100 {
+  width: 100px !important;
+}
+
+.session__input:first-child {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.label__log {
+  color: var(--color-black);
+}
+
+.width--565 {
+  max-width: 474px;
+}
+.px--8{
+  padding-left: 8px;
+  padding-right: 8px;
+} 
+.py--10{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.out-line-none{
+  outline: none;
+}
+
+button.btn__claim__back {
+  background: rgba(255, 255, 255, 1e-6) !important;
+  border: 1px solid var(--NTUC-3) !important;
+  color: var(--NTUC-3) !important;
+}
+
+.position-relative.wrapper__input__log {
+  height: 40px !important;
+}
+
+.wrapper__content__log {
+  padding: 50px;
+  width: 100%;
+}
+
+::v-deep .modal-title {
+  font-size: 24px;
+  color: var(--NTUC-9);
+  font-weight: 500;
+}
+
+::v-deep .modal-header {
+  background-color: #009de0;
+}
+
+::v-deep .modal-footer {
+  flex-direction: row-reverse;
+  justify-content: initial;
+}
+
+::v-deep .modal-footer .btn-secondary {
+  background: none;
+  color: #002c77;
+  border-radius: 4.8px;
+  border: 1px solid #002c77;
+}
+
+::v-deep .modal-body {
+  padding: 0;
+}
+
+.btn-popup-component {
+  display: flex;
+  justify-content: flex-end;
+  grid-gap: 0 15px;
+  gap: 0 5px;
+  padding: 12px;
+  border-top: 0.5px solid #dee2e6;
+}
+
+::v-deep .modal-footer .btn-primary {
+  background: #002c77;
+  color: var(--white);
+}
+
+.btn-oke {
+  width: 52px;
+  background: #002c77;
+  color: var(--white);
+}
+
+.btn-cancel_popup {
+  width: 80px;
+  background: none;
+  color: #002c77;
+  border: 1px solid #002c77;
+}
+
+.icon__upload {
+  width: 36px;
+  height: 36px;
+}
+
+.width--441 {
+  width: 350px;
+}
+
+.content--checkbox {
+  color: #212529;
+}
+
+.checkbox-size .custom-control-label::before {
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+}
+
+.checkbox-size .custom-control-label::after {
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+}
+.wrapper__input__log.estimated_amount {
+  width: calc(100% - 110px);
+}
+
+::v-deep .letter-spacing-0-5 .text__lable_info_step_2,
+::v-deep .letter-spacing-0-5 .label__log {
+  letter-spacing: 0.5px !important;
+}
+.divide-line-log {
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.12);
+}
+.button-next-log {
+  width: 100px;
+  height: 38px;
+  background: var(--NTUC-primary);
+}
+.button-back-log {
+  width: 100px;
+  height: 38px;
+  color: var(--NTUC-primary);
+  border: 1px solid var(--NTUC-primary);
+}
+::v-deep .upload-img-log .content__upload__log {
+  font-size: 12px !important;
+  margin-top: 25px !important;
+  transform: rotate(-0.08deg);
+}
+::v-deep .upload-img-log .icon__upload {
+  margin-top: 15px !important;
+}
+.diagnois-other-input{
+  height: 40px;
+  padding: 8px 12px;
+  outline: none;
+}

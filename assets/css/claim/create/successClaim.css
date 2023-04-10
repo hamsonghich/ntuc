@@ -1,0 +1,62 @@
+.success_claim_menu {
+  display: flex;
+  flex-direction: row;
+  padding: 0 24px;
+  gap: 53px;
+  margin-bottom: 16px;
+}
+
+.mn_bdb {
+  border-bottom: 1px solid #d2dae2;
+  height: 100%;
+}
+
+.menu_label_bd {
+  max-width: 213px;
+  width: 100%;
+}
+
+.row2 {
+  display: flex;
+}
+
+.col2 {
+  padding: 1em;
+}
+
+.menu_label {
+  padding: 12px;
+  background: var(--NTUC-4);
+  border-radius: 6px;
+  max-width: 213px;
+  width: 100%;
+  margin-bottom: 16px;
+  height: calc(100% - 16px);
+  color: #fcfdff;
+	font-weight: 700;
+	font-family: Ubuntu-Bold,Tahoma,sans-serif;
+}
+
+.menu_content_bd {
+  flex: 1;
+}
+.menu_content {
+  padding: 12px;
+  background: var(--NTUC-7);
+  border-radius: 6px;
+  width: 100%;
+  margin-bottom: 16px;
+  height: calc(100% - 16px);
+  color: var(--text-color-default);
+}
+
+.claim_print {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--NTUC-1);
+}
+
+.wrapper_checkbox_quick_log {
+  margin-bottom: 50px;
+}

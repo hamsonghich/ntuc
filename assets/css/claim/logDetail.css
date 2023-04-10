@@ -1,0 +1,339 @@
+.wrapper__content__log {
+  padding: 60px 153px 100px;
+  width: 100%;
+}
+
+.title__log {
+  font-family: Ubuntu-Light,Tahoma,sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 120%;
+  color: var(--NTUC-3);
+  text-transform: capitalize;
+}
+
+.question__log {
+  font-family: Ubuntu-Light,Tahoma,sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: var(--NTUC-3);
+  text-transform: capitalize;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.button__log {
+  padding: 9px 53px !important;
+  font-family: Ubuntu-Regular,Tahoma,sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.btn__claim__back {
+  padding: 9px 17px;
+}
+
+.wrapper__quote__log {
+  background: var(--NTUC-2);
+  width: 400px;
+}
+
+.width--100--percent {
+  width: 100%;
+}
+
+.quote__log {
+  padding: 160px 40px;
+  font-family: Ubuntu-Light,Tahoma,sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 120%;
+  color: #FFFFFF;
+}
+
+.text__title__log {
+  font-family: Ubuntu-Medium,Tahoma,sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  color: var(--color-black);
+  margin-bottom: 20px;
+}
+
+.label__log {
+  font-family: Ubuntu-Medium,Tahoma,sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  margin-bottom: 8px;
+  color: var(--NTUC-8);
+}
+
+.session__input {
+  margin-top: 20px;
+  border-bottom: 1px solid rgba(33, 37, 41, 0.25);
+}
+
+.icon__upload {
+  width: 36px;
+  height: 36px;
+}
+
+.content__upload__log {
+  font-family: Ubuntu-Regular,Tahoma,sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--NTUC-8);
+  margin-top: 21.65px;
+}
+
+.wrapper__input__log {
+  margin-bottom: 36px;
+  width: 100%;
+}
+
+.width--613 {
+  width: calc((100% - 24px)/2);
+}
+
+.margin-right--24 {
+  margin-right: 24px
+}
+
+.width--67 {
+  width: 67px;
+}
+
+.width--546 {
+  width: 546px;
+}
+
+.margin-bottom--70 {
+  margin-bottom: 70px;
+}
+
+.border--none {
+  border: none;
+}
+
+.wrapper__file__log {
+  margin-top: 24px;
+  width: 100%;
+}
+
+.icon__close__round__light {
+  width: 14px;
+  height: 14px;
+  margin: 3.5px 0px 6.5px 10px;
+  cursor: pointer;
+}
+
+.icon__file {
+  width: 14px;
+  height: 14px;
+  margin: 3.5px 8px 3.5px 0;
+}
+
+.text__file__log {
+  font-family: Ubuntu-Regular,Tahoma,sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--NTUC-3);
+  max-width: 220px;
+  width: 100%;
+}
+
+.text__date__file__log {
+  font-family: Ubuntu-Regular,Tahoma,sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--gray-scale-700);
+  text-transform: capitalize;
+}
+
+.limit__text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  /* number of lines to show */
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.icon__close__dark {
+  width: 24px;
+  height: 24px;
+}
+
+.cursor--pointer {
+  cursor: pointer;
+}
+
+.color--green {
+  color: #00AC41;
+}
+
+.color--red {
+  color: #BC4646;
+}
+
+.color--orange {
+  color: #F7A604;
+}
+
+.width--100 {
+  width: 100px;
+}
+
+.wrapper__button__filter .btn__claim__cancel {
+  padding: 9px 17px;
+  font-family: Ubuntu-Light,Tahoma,sans-serif;
+  font-size: 20px;
+}
+
+.wrapper__button__filter .button__log {
+  padding: 9px 42px;
+  font-family: Ubuntu-Light,Tahoma,sans-serif;
+  font-size: 20px;
+}
+.width--613.flex__direction__column {
+  flex-direction: column;
+  justify-content: space-between;
+}
+.width--613.flex__direction__column .flex__direction__column {
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+.wrapper__file__log > .d-flex {
+  position: relative;
+  width: 100%;
+  justify-content: space-between;
+}
+.wrapper__file__log > .d-flex > div {
+  width: 100%;
+}
+
+@media (max-width: 1600px) {
+  .text__title__log {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+  .wrapper__input__log {
+    margin-bottom: 24px;
+  }
+}
+@media (max-width: 1440px) {
+  .input__custom {
+    width: 100%;
+    padding: 10px 24px 10px 16px;
+    height: auto;
+    font-size: 16px;
+  }
+  .wrapper__button__filter .button__log,
+  .wrapper__button__filter .btn__claim__cancel {
+    padding: 9px 17px;
+    font-size: 16px;
+  }
+  .wrapper__file__log {
+    max-width: 200px;
+  }
+}
+@media (max-width: 768px) {
+  .wrapper__mobile__step {
+    flex-direction: column-reverse;
+  }
+  .width--613.flex__direction__column .flex__direction__column {
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  .wrapper__quote__log {
+    width: 100%;
+  }
+
+  .quote__log {
+    padding: 91px 40px;
+    font-size: 20px;
+  }
+
+  .question__log {
+    margin: 50px 0 40px 0;
+  }
+
+  .wrapper__input__log, .wrapper_checkbox_log__supp {
+    margin-bottom: 40px;
+  }
+
+  .wrapper_checkbox_log {
+    margin: 0 24px 40px 24px;
+  }
+
+  .margin-right--24 {
+    margin-right: 0;
+  }
+
+  .width--565, .width--100, .width--441, .width--613, .wrapper__input__log {
+    width: 100%;
+  }
+
+  .mb-24 {
+    margin-bottom: 24px;
+  }
+
+  .wrapper__print {
+    margin: 30px 0 100px;
+  }
+
+  .btn__claim__back {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+  }
+
+  .session__input>.d-flex, .flex__direction__column {
+    flex-direction: column;
+  }
+
+  .icon__close__dark {
+    display: none;
+  }
+
+  .wrapper__file__log {
+    margin-top: 5px;
+  }
+
+  .session__input {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .width--565.flex__direction__column .flex__direction__column {
+    flex-direction: unset;
+    align-items: flex-end;
+    gap: 24px;
+  }
+}
+@media (max-width: 576px) {
+  .wrapper__button__filter {
+    flex-direction: column-reverse;
+  }
+  .btn__claim__back {
+    margin-top: 24px;
+  }
+}

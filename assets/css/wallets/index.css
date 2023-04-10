@@ -1,0 +1,30 @@
+.wallet_container{
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.12), 0px 3px 4px rgba(0, 0, 0, 0.14), 0px 3px 3px -2px rgba(0, 0, 0, 0.2);
+  max-width: 1448px;
+}
+
+.title_wallet{
+  padding: 0 28px;
+}
+
+.quick_wallet{
+  margin: 25px 20px;
+}
+
+.card_list{
+  margin: 45px 20px 0;
+}
+
+@media screen and (max-width: 1440px) {
+  .card_item:nth-child(3n){
+    padding-left: 0;
+  }
+  .card_item:nth-child(3n + 2){
+    padding-left: 8px;
+  }
+}
+@media screen and (max-width: 1366px) {
+  .card_item:nth-child(3n + 2){
+    padding-left: 0;
+  }
+}

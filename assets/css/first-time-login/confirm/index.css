@@ -1,0 +1,49 @@
+.bg__img {
+  background: url('./../../../images/vecteezy_birthday-balloons-vector-banner-template-happy-birthday.png') no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  max-width: 509px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.content {
+  width: 100%;
+  max-width: 100%;
+  height: 387px;
+}
+
+.btn__log_out {
+  padding: 7px 20px;
+}
+
+.pl--86 {
+  padding-left: 86px;
+  padding-right:86px;
+}
+
+.confirm_container {
+  flex-grow: 1;
+  align-self: stretch;
+}
+
+@media screen and (min-width:1441px) and (max-width:1920px)  {
+  .pl--86 {
+    padding-left: 200px;
+    padding-right:86px;
+  }
+
+  .bg__img {
+    background: url('./../../../images/vecteezy_birthday-balloons-vector-banner-template-happy-birthday.png') no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    max-width: 700px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+  
+}

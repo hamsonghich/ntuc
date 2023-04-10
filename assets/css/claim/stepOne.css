@@ -1,0 +1,176 @@
+.question__log__one--one {
+  margin-bottom: 45px;
+}
+
+.bg__claim__image {
+  background-image: url('/images/first_claim.png');
+  background-size: cover;
+}
+
+.wrapper__quote__log.wrapper__quote__log-bg {
+  height: auto;
+}
+
+.wrapper__content__one--two {
+  padding: 100px 50px;
+  max-width: 100%;
+}
+
+.title__claim__table {
+  color: #fff;
+  background: var(--NTUC-2);
+  border-radius: 10px 10px 0px 0px;
+  padding: 10px 20px;
+}
+
+.question__claim__one--one {
+  margin: 50px 0 30px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mb--50 {
+  margin-bottom: 50px;
+}
+
+.mr--5 {
+  margin-right: 5px;
+}
+
+.title__selector {
+  font-family: Ubuntu-Light,Tahoma,sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 120%;
+  color: var(--NTUC-1);
+  margin-bottom: 30px;
+}
+
+.note__claim__two {
+  font-family: Ubuntu-Regular,Tahoma,sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: var(--NTUC-9);
+  margin-bottom: 33px;
+}
+
+.wrapper_upload {
+  margin-bottom: 50px;
+}
+
+.pt--352 {
+  padding-top: 352px;
+}
+
+.wrapper__claim__three__one {
+  padding: 20px;
+}
+
+.session__input {
+  border: 0;
+  margin-top: 0;
+}
+
+.wrapper__input__log {
+  margin-bottom: 26px;
+}
+
+.wrapper__form {
+  width: calc(100%/2 - 15px);
+}
+
+.wrapper__content__two--one {
+  padding: 100px 75px;
+}
+
+.wrapper__input__claim {
+  width: 50%;
+}
+
+.hidden-mobile {
+ display: block;
+}
+
+.text__image__pdf {
+  font-family: Ubuntu-Regular,Tahoma,sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 80px;
+  line-height: 120%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1600px) {
+  .text__image__pdf {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 991px) {
+
+  .wrapper__content__one--two {
+    padding: 40px 24px;
+  }
+
+  .title__selector {
+  font-family: Ubuntu-Regular,Tahoma,sans-serif;
+    font-size: 20px;
+  }
+
+  .wrapper__form {
+    width: 100% !important;
+  }
+
+  .session__input>.d-flex,
+  .flex__direction__column {
+    flex-direction: column;
+  }
+
+  .wrapper__input__claim {
+    width: 100%;
+  }
+
+  .hidden-mobile {
+    display: none;
+  }
+
+  .wrapper__claim__three__one {
+    padding: 24px;
+  }
+
+  .input__custom.input__date {
+    padding: 13.5px 10px;
+  }
+
+  .wrapper__image__pdf__claim {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .text__image__pdf {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .wrapper__content__two--one{
+    padding: 40px 54px;
+  }
+}
+
+@media (max-width: 576px){
+  .title__log__one{
+    font-size: 36px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .title__log__one{
+    font-size: 32px;
+  }
+}
+

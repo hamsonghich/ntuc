@@ -1,0 +1,18 @@
+.container__log {
+  margin: 0 auto;
+}
+.w--235{
+  width: 235px !important;
+}
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+  .container__log {
+
+  }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+  .container-log-list {
+    max-width: 1448px;
+    margin-right: 10px;
+  }
+}

@@ -1,0 +1,279 @@
+.title__log__step {
+  font-family: Ubuntu-Regular, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 120%;
+  color: var(--NTUC-1);
+  margin-bottom: 16px;
+}
+
+.stepper {
+  width: 240px;
+  z-index: 999 !important;
+}
+
+.stepper .line {
+  width: 2px;
+}
+
+.stepper .lead {
+  font-size: 1.1rem;
+}
+
+.text__step__log {
+  font-family: Ubuntu-Regular, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  width: 32px;
+  height: 31px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 9;
+}
+
+.bg__primary {
+  background: var(--NTUC-3);
+}
+
+.bg__disabled {
+  background: #d5d5d5;
+}
+
+.title__step__log {
+  font-family: Ubuntu-Regular, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #333333;
+  margin-bottom: 2px;
+}
+
+.content__step__log {
+  font-family: Ubuntu-Regular, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #888888;
+  margin-bottom: 28px;
+}
+
+.step__one__mobile {
+  display: none;
+}
+
+.pr-16 {
+  padding-right: 16px;
+}
+
+.title__claim__money {
+  font-family: Ubuntu-Medium, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 120%;
+  color: var(--NTUC-3);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.title__claim__wallet {
+  font-family: Ubuntu-Light, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: var(--NTUC-2);
+  margin-bottom: 16px;
+}
+
+.claim_balance {
+  font-family: Ubuntu-Light, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 120%;
+  color: var(--NTUC-1);
+}
+
+.claim_buget {
+  font-style: normal;
+  font-family: Ubuntu-Medium, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 120%;
+  color: var(--NTUC-2);
+}
+
+.claim_wallet_name {
+  font-family: Ubuntu-Light, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: var(--NTUC-9);
+}
+@media (max-width: 1600px) {
+  .title__log__step {
+    font-size: 28px;
+  }
+
+  .title__step__log {
+    font-size: 18px;
+  }
+
+  .content__step__log {
+    font-size: 14px;
+    margin-bottom: 28px;
+  }
+
+  .title__claim__money {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .title__log__step {
+    font-size: 20px;
+  }
+
+  .title__step__log {
+    font-size: 16px;
+  }
+
+  .content__step__log {
+    margin-bottom: 24px;
+  }
+
+  .title__claim__money {
+    font-size: 24px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  .title__claim__wallet {
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: 16px;
+  }
+}
+
+@media (max-width: 1366px) {
+  .title__log__step {
+    font-size: 20px;
+  }
+
+  .content__step__log {
+    font-size: 12px;
+    margin-bottom: 16px;
+  }
+
+  .title__claim__money {
+    font-size: 22px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .title__claim__wallet {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+}
+
+@media (max-width: 991px) {
+  .stepper {
+    width: 100%;
+  }
+
+  .title__log__step {
+    font-size: 32px;
+    font-family: Ubuntu-Regular, Tahoma, sans-serif;
+    margin-bottom: 0;
+  }
+
+  .icon__chevron__left {
+    width: 24px;
+    height: 24px;
+    color: var(--NTUC-8);
+  }
+
+  .wrapper__content__step {
+    margin: 0 16px;
+    width: 263px;
+  }
+
+  .content__step__log {
+    margin-bottom: 28px;
+  }
+
+  .title__log {
+    width: 203px;
+    font-size: 32px !important;
+    line-height: 38.4px !important;
+  }
+
+  .step__one__web {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .wap-step {
+    margin: 0 0 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .wap-step>.d-flex>div.pr-16 {
+    padding: 0 0 0 16px;
+    flex-direction: row !important;
+    position: relative;
+  }
+
+  .wap-step>.d-flex {
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+  }
+
+  .wap-step>.d-flex:last-child {
+    width: auto;
+  }
+
+  .wap-step>.d-flex:last-child .line {
+    display: none;
+  }
+
+  .wap-step>.d-flex>div>p.content__step__log {
+    display: none;
+  }
+
+  .wap-step>.d-flex .line {
+    width: 100%;
+    height: 3px !important;
+    position: absolute;
+    right: -20px;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .step__one__web {
+    display: flex;
+  }
+
+  .step__one__mobile {
+    display: none;
+    margin-bottom: 20px;
+  }
+
+  .d--none {
+    display: none !important;
+  }
+}

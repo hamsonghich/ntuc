@@ -1,0 +1,21 @@
+export const TITLE = {
+  400: 'Oops... It looks like the server didn’t like what you asked of it',
+  '401,403': 'Oops... you don’t have permission to access the page',
+  404: 'Don’t worry you didn’t do anything wrong',
+  408: 'Oops... Rhythm went for a quick coffee',
+  500: 'Oops... internal server error',
+  501: 'Oops... request not implemented',
+  502: 'Oops... bad gateway',
+  503: 'Oops... service unavalaible',
+  504: 'Oops.. gateway timeout',
+  505: 'Oops... your HTTP version not supported'
+};
+export const CONTENT = {
+  400: `Don't panic, This issue has been logged with our technical team and if you need additional information on this, please contact <span style="color: rgba(46, 200, 198, 1)">support@benefitsolutions.com.sg</span> and they will be able to advise further.</br> </br>But if you want to get back to work straightaway, please click on button below.</br> </br>If you were creating a Claim or LOG previously, we apologise but this didn't get saved. You may have to to do it again.`,
+  '401,403': `Oops... it looks like you're trying to access a part of the platform where you do not have permissions to.</br></br>This issue has been logged with our technical team and if you need additional information on this, please contact <span style="color:rgba(46, 200, 198, 1)">support@benefitsolutions.com.sg</span> and they will be able to advise further.</br></br>But if you want to get back to work straightaway, please click on button below.<br></br>Unfortunately, if you were in the middle of the Benefit Selections, we apologize for this inconvenience.`,
+  404: `This issue has been logged with our technical team and if you need additional information on this, please contact <span style="color: rgba(46, 200, 198, 1)">support@benefitsolutions.com.sg</span> and they will be able to advise further.</br></br>But if you want to get back to work straightaway, please click on button below.<br></br>Unfortunately, if you were in the middle of the Benefit Selections, we apologize for this inconvenience.`,
+  408: `It looks like the server is taking a coffee break, why don’t you do the same. Don't worry we won't tell.</br></br>This issue has been logged with our technical team and if you need additional information on this, please contact <span style="color: rgba(46, 200, 198, 1)">support@benefitsolutions.com.sg</span> and they will be able to advise further.</br></br>But if you want to get back to work straightaway, please click on button below.<br></br>Unfortunately, if you were in the middle of the Benefit Selections, we apologize for this inconvenience.`,
+  '500,501': `It looks like the <span style="color:#EE3D8B">Rhythm</span> is taking a coffee break, why don’t you do the same. Don't worry we won't tell.<br></br>This issue has been logged with our technical team and if you need additional information on this, please contact <span style="color:rgba(46, 200, 198, 1)">support@benefitsolutions.com.sg</span> and they will be able to advise further.</br></br>But if you want to get back to work straightaway, please click on button below.<br></br>Unfortunately, if you were in the middle of the Benefit Selections, we apologize for this inconvenience.`,
+  '502,503,504': `It looks like the <span style="color:#EE3D8B">Rhythm</span> is taking a coffee break, why don’t you do the same. Don't worry we won't tell.</br></br>This issue has been logged with our technical team at <span style="color: rgba(46, 200, 198, 1)">support@benefitsolutions.com.sg</span>, who will have further information on this.</br></br>But if you want to get back to work straightaway, please click on button below.<br></br>Unfortunately, if you were in the middle of the Benefit Selections, we apologize for this inconvenience.`,
+  505: `Oops... it looks like you’re trying to access <span style="color:#EE3D8B">Rhythm</span> using unsecured network. This might inflict damage to <span id="trademark-blue">Rhythm</span>.</br></br>This issue has been logged with our technical team at <span style="color:rgba(46, 200, 198, 1)">support@benefitsolutions.com.sg,</span> who will have further information on this.<br></br>But if you want to get back to work straightaway, please click on button below.<br></br>Unfortunately, if you were in the middle of the Benefit Selections, we apologize for this inconvenience.`
+};

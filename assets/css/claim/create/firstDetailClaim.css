@@ -1,0 +1,155 @@
+.detail-claim-containter {
+  max-width: 100% !important;
+}
+
+.same_receipt {
+  font-family: Ubuntu-Regular, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: var(--NTUC-1);
+}
+
+.claim_save_lab {
+  font-family: Ubuntu-Regular, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--NTUC-2);
+}
+
+.col-custome {
+  gap: 0 20px;
+}
+
+.claim_print {
+  font-family: Ubuntu-Regular, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--NTUC-1);
+}
+
+.claimCreate_step-7--left {
+  width: 100%;
+  flex: 0 0 565px;
+  max-width: 565px;
+}
+
+.claimCreate_step-7--right {
+  width: 100%;
+  flex: 0 0 calc(100% - 565px);
+  max-width: calc(100% - 565px);
+}
+
+.claimCreate_step-7--main input.input__custom.input__date,
+.claimCreate_step-8--main input.input__custom.input__date {
+  height: 48px;
+  padding: 12px 17px;
+}
+
+.claimCreate_step-7--main input,
+.claimCreate_step-8--main input,
+.claimCreate_step-7--main input::placeholder,
+.claimCreate_step-8--main input::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.claimCreate_step-7--main img.icon__date__picker,
+.claimCreate_step-8--main img.icon__date__picker {
+  bottom: auto !important;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.wrapper__file__log {
+  width: 100%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/*-======Responsive=====-*/
+@media only screen and (max-width: 1600px) {
+  .claimCreate_step-7--left {
+    max-width: 460px;
+  }
+  .claimCreate_step-7--right {
+    width: 100%;
+    flex: 0 0 calc(100% - 460px);
+    max-width: calc(100% - 460px);
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .claimCreate_step-7--left {
+    flex: 0 0 486px;
+    max-width: 486px;
+  }
+
+  .claimCreate_step-7--right {
+    flex: 0 0 calc(100% - 486px);
+    max-width: calc(100% - 486px);
+  }
+
+  .claimCreate_step-7--main input,
+  .claimCreate_step-8--main input,
+  .claimCreate_step-7--main input::placeholder,
+  .claimCreate_step-8--main input::placeholder {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .claimCreate_step-7--left {
+    flex: 1;
+    max-width: none;
+  }
+
+  .claimCreate_step-7--right {
+    flex: 1;
+    max-width: none;
+  }
+}
+
+@media only screen and (max-width: 1201px) {
+  .p--md-0 {
+    padding: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+
+  .claimCreate_step-7--right,
+  .claimCreate_step-7--left {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 !important;
+  }
+
+  .claimCreate_step-8 .wrapper__content,
+  .claimCreate_step-7 .wrapper__content {
+    padding: 0;
+  }
+
+  .p--sm-0 {
+    padding: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .col-custome {
+    flex-wrap: wrap;
+  }
+
+  .col-custome.claimCreate_step-8--item .form-group,
+  .col-custome.claimCreate_step-7--item .form-group {
+    width: 100%;
+  }
+}

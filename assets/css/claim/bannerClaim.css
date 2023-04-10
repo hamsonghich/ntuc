@@ -1,0 +1,335 @@
+.table-claim-submited tbody tr:nth-of-type(even) {
+  background-color: #f6fcff;
+}
+.table-claim-submited .v-data-table-header {
+  background-color: #e0f7fa;
+}
+.export {
+  position: absolute;
+  bottom: 10px;
+}
+.v-text-field__details {
+  padding: 0 !important;
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+.table-submitted table tbody tr {
+  cursor: pointer;
+}
+
+.emp-selected {
+  background-color: #FFFFFF;
+}
+.emp-not-selected {
+  background-color: var(--color-black);
+}
+
+.wrapper__banner__claim {
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.image__claim {
+  width: 100%;
+  height: 431px;
+}
+
+.card-wrapper .background-image {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-wrapper {
+  position: relative;
+  height: 431px;
+}
+
+.card-center {
+  height: 100%;
+  width: 100%;
+  max-width: 914px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0 auto;
+}
+
+.content__banner {
+  background: linear-gradient(268.98deg, #FAA61A -5.19%, rgba(250, 166, 26, 0) 108.75%);
+  background-size: cover;
+  width: 100%;
+  padding: 20px 28px;
+  margin-bottom: 25px;
+}
+
+.text__money {
+  font-family: Ubuntu-Medium,Tahoma,sans-serif;
+  font-size: 28px;
+  color: #fff;
+}
+
+.ml-50 {
+  margin-left: 50px;
+}
+
+.icon_status_banner {
+  width: 24px;
+  height: 24px;
+  margin: 5px 0;
+}
+
+.wrapper_cart_banner {
+  gap: 14px;
+}
+
+.cart__banner {
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0px 0px 8px 4px rgba(249, 249, 249, 0.8);
+  border-radius: 10px;
+  margin-left: 50px;
+}
+
+.text__banner--green {
+  font-family: Ubuntu-Light,Tahoma,sans-serif;
+  font-size: 80px;
+  color: #14853D;
+  width: 136px;
+  text-align: center;
+}
+
+.text__banner--orange {
+  font-family: Ubuntu-Light,Tahoma,sans-serif;
+  font-size: 80px;
+  color: #C68503;
+  width: 136px;
+  text-align: center;
+}
+
+.text__banner--red {
+  font-family: Ubuntu-Light,Tahoma,sans-serif;
+  font-size: 80px;
+  color: #BC4646;
+  width: 136px;
+  text-align: center;
+}
+
+.text__content__banner--green {
+  font-family: Ubuntu-Light,Tahoma,sans-serif;
+  font-size: 20px;
+  color: #00AC41;
+}
+
+.text__content__banner--orange {
+  font-family: Ubuntu-Light,Tahoma,sans-serif;
+  font-size: 20px;
+  color: #F7A604;
+}
+
+.text__content__banner--red {
+  font-family: Ubuntu-Light,Tahoma,sans-serif;
+  font-size: 20px;
+  color: #EF7979;
+}
+
+.text__status__banner--green {
+  font-family: Ubuntu-Regular,Tahoma,sans-serif;
+  font-size: 14px;
+  color: #14853D;
+}
+
+.text__status__banner--orange {
+  font-family: Ubuntu-Regular,Tahoma,sans-serif;
+  font-size: 14px;
+  color: #F57C00;
+}
+
+.text__status__banner--red {
+  font-family: Ubuntu-Regular,Tahoma,sans-serif;
+  font-size: 14px;
+  color: #D50000;
+}
+
+.card_SUBMITTED {
+  position: absolute;
+  top: 145px;
+  left: 0;
+  z-index: 2;
+}
+
+.card_PROCESSING {
+  position: absolute;
+  top: 145px;
+  left: 263px;
+  z-index: 2;
+}
+
+.card_APPROVED {
+  position: absolute;
+  top: 145px;
+  left: 526px;
+  z-index: 2;
+}
+
+.card_PAID {
+  position: absolute;
+  top: 90px;
+  left: 800px;
+  z-index: 2;
+}
+
+.card_REJECTED {
+  position: absolute;
+  top: 206px;
+  left: 800px;
+  z-index: 2;
+}
+
+.card_REQ {
+  position: absolute;
+  top: 265px;
+  left: 263px;
+  z-index: 2;
+}
+
+.vector-6 {
+  position: absolute;
+  top: 196px;
+  left: 16px;
+  width: 663px;
+  z-index: 1;
+}
+
+.vector-13 {
+  position: absolute;
+  top: 217px;
+  left: 185px;
+  z-index: 1;
+  width: 269px;
+  height: 96px;
+}
+
+.arrow_1 {
+  width: 28px;
+  height: 22px;
+  position: absolute;
+  top: 186px;
+  left: 171px;
+  z-index: 2;
+}
+
+.arrow_2 {
+  width: 28px;
+  height: 22px;
+  position: absolute;
+  top: 186px;
+  left: 440px;
+  z-index: 2;
+}
+
+.arrow_btm_left {
+  height: 28px;
+  width: 22px;
+  position: absolute;
+  top: 251px;
+  left: 175.5px;
+  z-index: 2;
+  transform: rotateX(180deg);
+}
+
+.arrow_btm_right {
+  height: 28px;
+  width: 22px;
+  position: absolute;
+  top: 251px;
+  left: 443px;
+  z-index: 2;
+}
+
+.vector_7 {
+  height: 120px;
+  position: absolute;
+  top: 137px;
+  left: 679px;
+  z-index: 2;
+}
+
+.vector_9_top {
+  width: 118px;
+  position: absolute;
+  top: 137px;
+  left: 679px;
+  z-index: 2;
+}
+
+.vector_9_bottom {
+  width: 118px;
+  position: absolute;
+  top: 256px;
+  left: 679px;
+  z-index: 2;
+}
+
+.arrow_3 {
+  width: 28px;
+  height: 22px;
+  position: absolute;
+  top: 127px;
+  left: 720px;
+  z-index: 2;
+}
+
+.arrow_4 {
+  width: 28px;
+  height: 22px;
+  position: absolute;
+  top: 246px;
+  left: 720px;
+  z-index: 2;
+}
+
+@media only screen and (max-width: 1600px) {
+  .wrapper__banner__claim{
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .card-wrapper .background-image {
+    margin-bottom: 24px !important;
+  }
+  .wrapper__banner__claim{
+    margin-bottom: 32px;
+  }
+}
+
+@media only screen and (max-width: 1369px) {
+  .card-center {
+    transform: scale(0.8) translateX(-62%);
+  }
+  .text__money {
+    font-size: 24px;
+  }
+  .wrapper__banner__claim{
+    margin-bottom: 24px;
+  }
+  .status-item {
+    width: 100px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .wrapper__banner__claim {
+    display: none;
+  }
+  .content__banner {
+    display: none;
+  }
+}
+

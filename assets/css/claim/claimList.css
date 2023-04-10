@@ -1,0 +1,135 @@
+.container__claim {
+  padding: 0px 15px;
+  width: 100%;
+  max-width: 1673px;
+  margin: 0 auto;
+}
+.title__claim {
+  font-family: Ubuntu-Medium,Tahoma,sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: #000;
+  margin-bottom: 25px;
+}
+.subtitle__claim {
+  font-family: Ubuntu-Regular,Tahoma,sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--gray-scale-700);
+  margin-bottom: 25px;
+}
+.cart__claim {
+  background: #FFFFFF;
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.175);
+  border-radius: 10px;
+  margin-bottom: 50px;
+  width: 100%;
+  padding: 20px;
+}
+.table__claim{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1543px;
+  padding: 0 20px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mt-10 {
+  margin-top: 20px;
+}
+.wrapper__input__filter__claim {
+  margin-bottom: 10px;
+}
+.notification__table__log {
+  font-family: Ubuntu-Regular,Tahoma,sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #000;
+  margin-bottom: 50px;
+}
+.title--claim {
+  font-size: 32px;
+  margin: 51px 0 50px;
+  color: #000;
+}
+
+@media only screen and (max-width: 1600px) {
+  .container__claim {
+    max-width: 1440px;
+  }
+  .title--claim {
+    font-size: 32px;
+    margin: 42px 0 42px;
+  }
+  .table__claim {
+    padding: 50px;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .container__claim {
+    max-width: 1280px;
+  }
+  .input__search__claim input {
+    font-size: 18px;
+  }
+  .input__search__claim *:not(span) {
+    padding: 8px 16px;
+  }
+  .table__claim {
+    padding: 32px;
+  }
+  .status__log__table {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .container__claim {
+    max-width: 1120px;
+  }
+  .table__claim {
+    max-width: 100%;
+    padding: 0 24px;
+  }
+  .wrapper__claim__tab {
+    margin-bottom: 24px;
+  }
+  .table th, .table td {
+    padding: 10px 5px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .cart__claim {
+    /* max-width: 576px; */
+    margin: 0 auto;
+    margin-bottom: 56px;
+  }
+  .table__claim {
+    padding: 0 24px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .title__claim {
+    font-size: 24px;
+  }
+  .notification__table__log {
+    font-size: 16px;
+    margin: 0 16px 56px 16px;
+  }
+  .cart__claim {
+    margin-bottom: 80px;
+  }
+  .note__text__claim {
+    margin-top: 0;
+    margin-right: 12px;
+  }
+}

@@ -1,0 +1,26 @@
+.benefit .custom-control-input:checked~.custom-control-label::before {
+  border-color: var(--NTUC-1);
+  background-color: var(--NTUC-1);
+}
+
+.benefit .custom-control-input:focus~.custom-control-label::before {
+  box-shadow: 0 0 0 0.2rem var(--NTUC-17);
+}
+
+.benefit .custom-checkbox .custom-control-input:disabled:checked ~ .custom-control-label::before {
+  border-color: var(--NTUC-1-light);
+  background-color: var(--NTUC-1-light);
+}
+
+.benefit .custom-radio .custom-control-input:disabled:checked ~ .custom-control-label::before {
+  border-color: var(--NTUC-1-light);
+  background-color: var(--NTUC-1-light);
+}
+
+.checkbox--error .custom-control-label::before {
+  border-color: var(--NTUC-15);
+}
+
+.benefit .custom-control-input[disabled] ~ .custom-control-label::before, .custom-control-input:disabled ~ .custom-control-label::before {
+  background-color: var(--NTUC-21);
+}

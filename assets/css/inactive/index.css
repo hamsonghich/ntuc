@@ -1,0 +1,41 @@
+.inactive-page{
+  margin-left: 125px;
+}
+.title-inactive {
+  font-size: 96px;
+}
+.content-left {
+  max-width: 629px;
+}
+
+.pring-back{
+  width: 228px;
+  margin-top: 92.5px;
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
+@media screen and (max-width: 1600px) {
+  .inactive-page-custom{
+  margin: 50px 155px 125px 155px !important;
+  }
+  .description{
+    margin-top: 26.5px;
+  }
+  .pring-back{
+    margin-top: 32.5px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .inactive-page-custom{
+    margin: 10px 155px 15px 155px !important
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 1367px) {
+  .title-inactive{
+    font-size: 50px;
+  }
+}

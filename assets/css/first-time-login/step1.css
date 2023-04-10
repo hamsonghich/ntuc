@@ -1,0 +1,65 @@
+.container-stepfirst {
+  margin: 50px;
+}
+
+.title-step1 {
+  margin: 20px 0;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.red-aleart {
+  background: #FF5252;
+}
+
+.descrip-title {
+  overflow-y: auto;
+  color: #616161;
+}
+
+.btn-step1 {
+  margin-top: -2px;
+  padding: 7px 32px;
+}
+
+.contain {
+  height: 100%;
+  border-radius: 8px;
+}
+
+@media screen and (max-height: 899px) {
+  .contain {
+    height: 500px;
+    max-height: 700px;
+  }
+
+  .title-step1 {
+    margin: 10px 0;
+  }
+
+  .descrip-title {
+    height: 210px;
+  }
+
+  .btn-step1 {
+    margin-top: 40px;
+  }
+
+  .container-stepfirst {
+    margin: 30px 70px;
+  }
+}
+@media screen and (max-width: 1920px) and (max-height: 899px) {
+  .space-error{
+    margin: 15px 70px;
+  }
+}
+@media screen and (max-width: 1440px) and (max-height: 899px) {
+  .space-error{
+    margin: 18px 70px;
+  }
+}
+@media screen and (max-width: 1366px) and (max-height: 899px) {
+  .space-error{
+    margin: 23px 70px;
+  }
+}

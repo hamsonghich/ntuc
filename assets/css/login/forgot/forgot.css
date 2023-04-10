@@ -1,0 +1,193 @@
+.bg-image-forgot {
+  background: url(../../../images/background.png) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+::v-deep .date_picker_forgotPass .icon__date__picker{
+  display: none;
+}
+
+::v-deep .date_picker_forgotPass .icon__close{
+  right: 10px;
+}
+
+::v-deep .date_picker_forgotPass .form-control{
+  background-color: #FFFFFF !important;
+}
+
+::v-deep .date_picker_forgotPass .form-control:disabled{
+  background: #e9ecef !important;
+}
+
+::v-deep .date_picker_forgotPass .input_custom{
+  border: 1px solid #ced4da !important;
+  border-radius: 0.25rem !important;
+}
+
+.fpg-logo {
+  height: 34px;
+  width: 190px;
+}
+
+.space_top{
+  padding-top: 58px;
+}
+
+.notification-form {
+  width: 491px;
+  height: 40px;
+  border-radius: 4px;
+}
+
+.green-noti {
+  background: #2E7D32;
+  border: 0.5px solid #388E3C;
+}
+
+.red-noti {
+  background: #D32F2F;
+  border: 0.5px solid #C62828;
+}
+
+.title-notify {
+  width: 444px;
+  height: 40px;
+}
+
+.forgot-form {
+  width: 491px;
+  border-radius: 16px;
+  height: 712px;
+  padding: 50px;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2), 0px 9px 10px rgba(0, 0, 0, 0.14), 0px 5px 14px rgba(0, 0, 0, 0.12);
+}
+
+.askAccount {
+  letter-spacing: 0.4px;
+  width: 247px;
+}
+
+.askAccount>a {
+  color: rgba(241, 90, 34, 1);
+}
+
+.forgot-title {
+  color: rgba(0, 0, 0, 0.87);
+  width: 377px;
+  height: 32px;
+}
+
+.forgot-slogan {
+  letter-spacing: 0.15px;
+  color: #757575;
+  width: 263px;
+  height: 28px;
+}
+
+.title {
+  width: 129px;
+  height: 24px;
+}
+
+.form-control.is-valid {
+  background-image: none;
+}
+
+.separation-line {
+  height: 1px;
+  background: rgba(0, 0, 0, 0.12);
+  width: 360px;
+}
+
+.text-warn p {
+  width: 377px;
+  height: 20px;
+  font-style: normal;
+  letter-spacing: 0.4px;
+}
+
+.btn-submit {
+  padding: 0px 16px;
+  gap: 16px;
+  width: 360px;
+  height: 44px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.custom-text {
+  line-height: 36px;
+  letter-spacing: 1.25px;
+}
+
+.form-input::placeholder {
+  width: 100%;
+  height: 24px;
+  font-style: normal;
+  letter-spacing: 0.5px;
+  color: #BDBDBD;
+}
+
+.color-box-forgot .form-control.is-valid, .color-form-userId .form-control.is-valid{
+  border: 1px solid #ced4da;
+}
+
+@media screen and (min-width: 1279px) and (max-width: 1439px) {
+  .form-input {
+    height: 40px;
+  }
+
+  .btn-submit {
+    max-width: 300px;
+    height: 40px;
+  }
+
+  .text-warn p {
+    letter-spacing: -0.6px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .forgot-form{
+    height: 660px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .forgot_pass_container{
+    width: unset !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .forgot-form{
+    margin-top: 21px;
+    height: 712px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .forgot-form-container{
+    width: 100%;
+  }
+  .forgot_pass_container{
+    width: 100% !important;
+  }
+  .forgot-form{
+    width: 100%;
+    margin-top: 0;
+  }
+  .notification-form, .title-notify{
+    width: 100%;
+    height: 80px;
+  }
+  .forgot-slogan{
+    text-align: left !important;
+  }
+  .btn-submit, .text-warn p, .separation-line, .forgot-slogan, .forgot-title, .askAccount{
+    width: 100%;
+  }
+  .space_top{
+    padding-top: unset;
+  }
+}

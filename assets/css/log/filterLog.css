@@ -1,0 +1,146 @@
+.cart__filter__log {
+  background: var(--white);
+  box-shadow: 0px 0px 21px 15px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  width: 348px;
+  top: 200px;
+}
+@media screen and (max-width: 1365px) {
+  .cart__filter__log {
+    top: 400px !important;
+  }
+}
+
+.tittle__filter {
+  color: var(--text-color-default);
+}
+
+.label__filter__log {
+  color: var(--NTUC-1);
+  width: 70px !important;
+}
+
+.search__alt__light {
+  width: 24px;
+  height: 24px;
+}
+
+.input__filter__claim[type='radio'] {
+  width: 16px;
+  height: 16px;
+}
+
+::v-deep .mx-input-wrapper {
+  height: 100%;
+}
+
+::v-deep .mx-icon-calendar {
+  display: none;
+}
+
+::v-deep .mx-input {
+  border: none;
+  box-shadow: inherit;
+  padding: 0;
+  font-family: Ubuntu-Regular, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--NTUC-disable);
+  margin: 0;
+  height: auto;
+}
+
+@media (max-width: 1440px) {
+  .cart__filter__claim {
+    padding: 16px 24px;
+  }
+
+  .tittle__filter {
+    font-size: 20px;
+    margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cart__filter__claim {
+    padding: 24px;
+    left: -7px;
+    width: 450px;
+  }
+
+  ::v-deep .wrapper__select__custom,
+  ::v-deep .wrapper__input__filter__claim .position-relative,
+  ::v-deep .vue-simple-suggest.designed .input-wrapper input,
+  ::v-deep .input__custom {
+    width: 199px !important;
+  }
+
+  .wrapper__filter__log {
+    flex-direction: column;
+    margin-top: 14px;
+  }
+
+  .wrapper__button__filter {
+    margin-top: 14px;
+    margin-left: auto;
+  }
+
+  .button__filter {
+    padding: 5px 16px 9px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .cart__filter__claim {
+    width: 342px;
+    padding: 24px 16px;
+  }
+
+  .tittle__filter {
+    font-size: 32px;
+  }
+}
+
+.wrapper__select__custom__log {
+  width: 240px !important;
+}
+
+.input__custom {
+  padding: 8px 12px !important;
+  width: 240px !important;
+  height: 32px;
+  background: var(--white);
+  border: 1px solid rgba(0, 0, 0, 0.42);
+}
+
+input.input__custom__log::placeholder {
+  color: #b0bec5 !important;
+  -webkit-text-fill-color: #b0bec5 !important;
+}
+
+.input__custom:focus,
+.input__custom:focus-visible {
+  outline: none;
+}
+
+::v-deep .default-input {
+  -webkit-text-fill-color: var(--NTUC-disable);
+}
+
+::v-deep .input__custom__log {
+  border: 1px solid rgba(0, 0, 0, 0.42) !important;
+}
+
+::v-deep .styleLogFilter::placeholder {
+  color: #b0bec5 !important;
+  -webkit-text-fill-color: #b0bec5 !important;
+}
+
+::v-deep .styleLogFilter input::placeholder {
+  color: #b0bec5;
+  -webkit-text-fill-color: #b0bec5;
+}

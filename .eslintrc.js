@@ -1,0 +1,40 @@
+module.exports = {
+  root: true,
+  env: {
+    browser: true,
+    node: true
+  },
+  extends: [
+    '@nuxtjs/eslint-config-typescript',
+    'plugin:nuxt/recommended',
+    'prettier'
+  ],
+  plugins: ['prettier'],
+  rules: {
+    'semi': [2, 'always'],
+    'no-console': 'error',
+    'no-debugger': 'error',
+    'comma-dangle': ['error', 'never'],
+    'quotes': ['error', 'single'],
+    'indent': ['error', 2],
+    'vue/html-indent': ['error', 2],
+    'vue/script-indent': ['error', 2],
+    'no-multiple-empty-lines': ['error', { 'max': 1 }],
+    'padding-line-between-statements': ['error',
+      { blankLine: 'always', prev: ['function', 'import'], next: ['class'] },
+      { blankLine: 'never', prev: '*', next: ['const', 'let', 'var', 'return'] }
+    ],
+    'object-curly-spacing': ['error', 'always'],
+    // 'max-len': ['error', { 'code': 140 }],
+    'require-await': 'error',
+    'prettier/prettier': ['error'],
+    'vue/singleline-html-element-content-newline': 0,
+    'vue/component-name-in-template-casing': ['error', 'PascalCase'],
+    'vue/valid-v-slot': [
+      'error',
+      {
+        allowModifiers: true,
+      },
+    ],
+  }
+}

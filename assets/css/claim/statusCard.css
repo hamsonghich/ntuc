@@ -1,0 +1,102 @@
+/* status card */
+.status-item {
+  width: 7.125rem;
+  border-radius: 0.8rem !important;
+  cursor: pointer;
+  background: #ffffff;
+  border: 1px solid #eaeff4;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.09);
+}
+.status-item.highlight {
+  border: 3px solid #0c8fca !important;
+}
+.card_chip.v-chip.theme--light.v-size--small {
+  height: 20px;
+}
+.text-status {
+  font-family: Ubuntu-Medium,Tahoma,sans-serif;
+  font-size: 9px;
+}
+.card_chip.v-chip .v-chip__content {
+  max-width: none;
+}
+.status-item.SUBMITTED:hover,
+.status-item.SUBMITTED:active {
+  background-color: #fff5e6;
+}
+.status-item.PROCESSING:hover,
+.status-item.PROCESSING:active {
+  background-color: #ffe4de;
+}
+.status-item.REQ.FOR.INFO:hover,
+.status-item.REQ.FOR.INFO:active {
+  background-color: #e6efff;
+}
+.status-item.PENDING:hover,
+.status-item.PENDING:active {
+  background-color: #e1fad1;
+}
+.status-item.APPROVED:hover,
+.status-item.APPROVED:active {
+  background-color: #daf7da;
+}
+.status-item.REJECTED:hover,
+.status-item.REJECTED:active {
+  background-color: #fbeaea;
+}
+.status-item.SETTING:hover,
+.status-item.SETTING:active {
+  background-color: #d7e2f8;
+}
+.status-item.PAID:hover,
+.status-item.PAID:active {
+  background-color: #d8dbe1;
+}
+.status-item.HR.APPROVAL:hover,
+.status-item.HR.APPROVAL:active {
+  background-color: #fff2cc;
+}
+.status-item.PENDING.SUBMISSION:hover,
+.status-item.PENDING.SUBMISSION:active {
+  background-color: #ffffe6;
+}
+
+.item-content {
+  color: #528af7;
+  font-family: Ubuntu-Medium,Tahoma,sans-serif;
+  font-size: 12px;
+  margin-top: 4px;
+  margin-bottom: 6px;
+}
+.item-number {
+  color: #3f3f3f;
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-bottom: 0 !important;
+}
+.card_chip {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-radius: 10px;
+  padding: 3px 0;
+}
+.card_chip strong {
+  font-size: 0.525rem !important;
+}
+.icon_img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.align-items-center {
+  align-items: center;
+}
+.status-item .container {
+  padding: 0.3rem 0.5rem 0.5rem 0.5rem;
+}
+.pd-14 {
+  padding: 14px;
+}

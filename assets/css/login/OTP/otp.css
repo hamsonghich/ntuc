@@ -1,0 +1,234 @@
+.mobile-form-container {
+  margin: 30px auto;
+}
+
+.mobile-form {
+  padding: 50px 50px;
+  width: 491px;
+  height: 712px;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2), 0px 9px 10px rgba(0, 0, 0, 0.14), 0px 5px 14px rgba(0, 0, 0, 0.12);
+  border-radius: 16px;
+}
+
+.fpg-logo {
+  height: 34px;
+  width: 190px;
+}
+
+.family-img {
+  margin-left: 65px;
+}
+
+.text-container {
+  margin-top: 85px;
+  margin-bottom: 60px;
+}
+
+.phone-text {
+  width: 394px;
+  height: 32px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.unable-detected-text {
+  width: 394px;
+  height: 42px;
+  letter-spacing: 0.15px;
+  color: #616161;
+}
+
+.otp_expired {
+  width: 394px;
+  height: 42px;
+  letter-spacing: 0.15px;
+  color: red;
+}
+
+.input-name {
+  width: 100%;
+  height: 24px;
+  letter-spacing: 0.5px;
+}
+
+.input-mobile-group {
+  margin-bottom: 125px;
+}
+
+.input-email-group {
+  margin-top: 60px;
+  margin-bottom: 125px;
+}
+
+.form-input-email {
+  width: 100%;
+}
+
+.form-input,
+.set-width {
+  width: 264px;
+}
+
+.btn__submit, .btn__back {
+  padding: 0px 16px;
+  gap: 16px;
+  width: 394px;
+  height: 44px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.btn__submit__placeholder {
+  padding: 0px 16px;
+  gap: 16px;
+  width: 394px;
+  height: 44px;
+}
+
+.btn__submit:hover,
+.btn__submit:focus,
+.btn__submit:active {
+  background: var(--NTUC-3) !important;
+  border: 1px solid var(--NTUC-3-light) !important;
+  box-shadow: 0 0 0 0.2rem var(--NTUC-3-light) !important;
+}
+
+.btn__submit:disabled,
+.btn__back:hover,
+.btn__back:focus,
+.btn__back:active {
+  background: var(--NTUC-2) !important;
+  border: 1px solid var(--NTUC-2-light) !important;
+  box-shadow: 0 0 0 0.2rem var(--NTUC-2-light) !important;
+}
+
+.form-control.is-valid {
+  background-image: none;
+}
+
+/* OTP */
+:deep(.otp-code-input-login) {
+  padding: 4px;
+  width: 57.33px;
+  height: 80px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2), 0px 2px 2px rgba(0, 0, 0, 0.14), 0px 1px 5px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.userInput {
+  margin: 20px 0;
+  gap: 44px;
+}
+
+.otp-expire {
+  width: 100%;
+  height: 24px;
+  letter-spacing: 0.5px;
+  margin-bottom: 50px;
+}
+
+.radio_button_box{
+  margin: 89px 0 124px;
+}
+
+/* responsive */
+@media screen and (min-width: 1279px) and (max-width: 1439px) {
+  .mobile-form {
+    height: 100%;
+    max-width: 460px;
+    padding: 40px 33px;
+  }
+
+  .family-img {
+    width: 500px;
+  }
+
+  .text-container {
+    margin: 50px 0;
+  }
+
+  .input-mobile-group,
+  .input-email-group {
+    margin-bottom: 50px;
+  }
+
+  .btn-submit {
+    width: 100%;
+    height: 40px;
+  }
+
+  .unable-detected-text {
+    width: 100%;
+  }
+
+  .otp_expired{
+    width: 100%;
+  }
+
+  .form-input {
+    height: 35px;
+  }
+
+  :deep(.otp-code-input-login) {
+    width: 45px;
+    height: 70px;
+  }
+}
+
+@media only screen and (min-width:1600px) {
+  .family-img {
+    width: 750px;
+    margin-left: 100px;
+  }
+
+}
+
+@media only screen and (min-width:1900px) {
+  .family-img {
+    margin-left: 300px;
+  }
+
+}
+@media screen and (max-width: 1200px) {
+  .mobile-form{
+    height: 680px;
+    margin-top: 20px;
+  }
+  .input-mobile-group{
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .mobile-form-container{
+    margin: unset;
+  }
+  .mobile-form{
+    margin-top: 21px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .mobile-form-container{
+    width: 100% !important;
+  }
+  .form-step-one, .form-step-otp{
+    width: 100%;
+  }
+  .mobile-form{
+    height: 712px;
+    width: 100%;
+  }
+  .btn__submit, .btn__back, .unable-detected-text, .phone-text{
+    width: 100%;
+  }
+  .unable-detected-text{
+    height: unset;
+    display: block !important;
+  }
+  .form-input, .set-width, .btn__submit__placeholder, .otp_expired{
+    width: 100%;
+  }
+  :deep(.otp-code-input-login) {
+    width: 38px;
+    height: 70px;
+  }
+}

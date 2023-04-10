@@ -1,0 +1,13 @@
+.tab_container{
+  margin-right: 20px;
+}
+.autocomplete__tab{
+  width: 220px;
+}
+::v-deep .vue-simple-suggest.designed .suggestions .suggest-item.hover{
+  background-color: var(--NTUC-1) !important;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow-x: auto;
+}

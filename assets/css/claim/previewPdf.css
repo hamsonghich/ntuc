@@ -1,0 +1,76 @@
+.wrapper--100 {
+  width: 100%;
+  height: 100%;
+}
+
+.text__image__pdf {
+  font-family: Ubuntu-Regular,Tahoma,sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 80px;
+  line-height: 120%;
+  text-align: center;
+}
+
+.description {
+  max-height: 150px;
+  overflow: hidden;
+  overflow-y: auto;
+  width: 100%;
+  margin-top: 16px;
+}
+.box-update{
+  width: 100%;
+  max-width: 150px;
+}
+.wrapper__file__log .d-flex > div {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+  cursor: pointer;
+  padding-bottom: 5px;
+}
+
+.fs--16 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.wrapper__image__pdf {
+  width: 100%;
+  height: 700px;
+  background-color: #A8AFB5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon__file {
+  width: 14px;
+  height: 14px;
+  margin: 3.5px 8px 3.5px 0;
+}
+
+.border-outline-attachment {
+  border: 1px solid var(--NTUC-9);
+}
+
+@media (max-width: 991px) {
+  .text__image__pdf {
+    font-size: 20px;
+  }
+
+  .wrapper__image__pdf {
+    width: 100%;
+    height: 328px;
+    margin-bottom: 15px;
+  }
+
+  .wrapper-image {
+    height: 100%;
+  }
+}

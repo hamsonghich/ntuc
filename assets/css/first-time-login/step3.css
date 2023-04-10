@@ -1,0 +1,22 @@
+.container-step3 {
+    max-width: 377px;
+}
+
+.btn-step {
+    max-width: 109px;
+    padding: 7px 32px;
+}
+
+.btn-step-skip {
+    width: 109px;
+    padding: 6px 32px;
+    border: 1px solid #F15A22;
+}
+
+.title-step3 {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.red-aleart {
+    background: #FF5252;
+}

@@ -1,0 +1,77 @@
+.first_claim_noti {
+  font-family: Ubuntu-Regular,Tahoma,sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--gray-scale-700);
+  white-space: pre-line;
+}
+.claim_add_new_letter{
+  white-space: nowrap;
+  padding: 10px;
+}
+.create__claim .vue-simple-suggest.designed .input-wrapper input{
+  height: 48px !important;
+}
+.create__claim .input__custom.input__date,
+.input-claim-cs{
+  height: 48px;
+  padding: 12px 17px;
+}
+.icon__date__picker
+.btn_back {
+  background-color: #a8afb5 !important;
+}
+.input__currency {
+  width: 100%;
+}
+.input__remarks {
+  height: 50px;
+}
+.claim-make-sure {
+  font-family: Ubuntu-Light,Tahoma,sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: var(--NTUC-3);
+}
+.isAutoComplete div {
+  width: 100%;
+}
+.isAutoComplete button {
+  margin-left: 20px;
+  height: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  background: var(--NTUC-1);
+  color: #ffffff;
+}
+@media only screen and (max-width: 768px) {
+  .create__claim .input__custom.input__date,
+  .input-claim-cs {
+    max-width: 100%;
+    width: 100%;
+  }
+  .mb-text-center{
+    text-align: center;
+  }
+  .create__claim .claim-create_upload_file ::v-deep .vue-dropzone.dropzone.dz-clickable {
+    width: 100% !important;
+    max-width: 200px;
+  }
+}
+@media only screen and (max-width: 576px){
+  .refer_reponsive{
+    flex-direction: column;
+  }
+  .refer_reponsive button{
+    width: 100%;
+    margin: 10px 0 0 0 ;
+  }
+}

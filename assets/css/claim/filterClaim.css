@@ -1,0 +1,201 @@
+.cart__filter__claim {
+  position: absolute;
+  top: 72px;
+  padding: 20px 40px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 21px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  z-index: 1;
+  width: 580px;
+}
+
+.tittle__filter {
+  font-family: Ubuntu-Medium,Tahoma,sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 120%;
+  color: var(--text-color-default);
+  margin-bottom: 36px;
+}
+
+.label__filter__claim {
+  font-family: Ubuntu-Light,Tahoma,sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: var(--NTUC-3);
+  padding-right: 35px;
+  width: 100%;
+  max-width: calc(100% - 268.25px);
+}
+
+.wrapper__filter__log {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.inner__filter__log {
+  width: 100%;
+}
+
+.wrapper__button__filter {
+  margin-top: auto;
+  margin-bottom: 10px;
+}
+
+::v-deep .wrapper__select__custom,
+::v-deep .wrapper__input__filter__claim .position-relative,
+::v-deep .vue-simple-suggest.designed .input-wrapper input, ::v-deep .input__custom {
+  width: 268.25px !important;
+}
+
+.button__filter {
+  padding: 8px 16px 16px !important;
+  margin-left: 34.75px;
+}
+
+.search__alt__light {
+  width: 24px;
+  height: 24px;
+}
+
+.mr--16 {
+  margin-right: 16px;
+}
+
+.mt--10 {
+  margin-top: 10px;
+}
+
+.label_checkbox_log {
+  font-family: Ubuntu-Regular,Tahoma,sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  color: var(--NTUC-8);
+  margin-left: 12px;
+  margin-bottom: 0;
+}
+
+.wrapper__checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.mb--22 {
+  margin-bottom: 22px;
+}
+
+.fz--16 {
+  font-size: 16px !important;
+}
+
+.mb--19 {
+  margin-bottom: 19px;
+}
+
+.mb--27 {
+  margin-bottom: 27px;
+}
+
+.pd--38 {
+  padding-bottom: 38px;
+}
+
+.input__filter__claim[type="radio"] {
+  width: 16px;
+  height: 16px;
+}
+
+::v-deep .mx-input-wrapper {
+  height: 100%;
+}
+
+::v-deep .mx-icon-calendar {
+  display: none;
+}
+
+::v-deep .mx-input {
+  border: none;
+  box-shadow: inherit;
+  padding: 0;
+  font-family: Ubuntu-Regular,Tahoma,sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--NTUC-disable);
+  margin: 0;
+  height: auto;
+}
+
+
+@media (max-width: 1440px) {
+  .cart__filter__claim {
+    padding: 16px 24px;
+
+  }
+
+  .tittle__filter {
+    font-size: 20px;
+    margin-bottom: 24px;
+  }
+
+  .label__filter__claim {
+    font-size: 16px;
+  }
+
+  ::v-deep .vue-simple-suggest.designed .input-wrapper input,
+  .input__custom {
+    padding: 10px 24px 10px 16px !important;
+    height: auto;
+    font-size: 16px !important;
+    margin: 0;
+  }
+
+  ::v-deep .vue-simple-suggest.designed .input-wrapper input::placeholder,
+  .input__custom::placeholder {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cart__filter__claim {
+    padding: 24px;
+    left: -7px;
+    width: 450px;
+  }
+
+  ::v-deep .wrapper__select__custom,
+  ::v-deep .wrapper__input__filter__claim .position-relative,
+  ::v-deep .vue-simple-suggest.designed .input-wrapper input, ::v-deep .input__custom {
+    width: 199px !important;
+  }
+
+  .wrapper__filter__log {
+    flex-direction: column;
+    margin-top: 14px;
+  }
+
+  .wrapper__button__filter {
+    margin-top: 14px;
+    margin-left: auto;
+  }
+
+  .button__filter {
+    padding: 5px 16px 9px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .cart__filter__claim {
+    width: 342px;
+    padding: 24px 16px;
+  }
+
+  .tittle__filter {
+    font-size: 32px;
+  }
+}

@@ -1,0 +1,50 @@
+.sidebar-card-body {
+  padding: 24px;
+  background: #FCFDFF;
+  border-radius: 6px;
+  max-width: 240px;
+  width: 100%;
+  gap: 16px;
+}
+
+.sidebar-card-item {
+  padding: 16px 12px;
+  margin-bottom: 16px;
+  color: #A8AFB5;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.sidebar-card-item-active {
+  background: var(--NTUC-4);
+  border-radius: 6px;
+  padding: 16px 12px;
+  padding-right: 40px;
+  margin-bottom: 16px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FCFDFF;
+}
+
+.sidebar-card-item-active::before {
+  content: url('../../../Icon/edit_claim.svg');
+  padding-right: 5px;
+}
+
+.sidebar-card-border {
+  border-bottom: 1px solid #D2DAE2;
+  margin-bottom: 16px;
+}
+
+.sidebar-card-border:last-child {
+  margin-bottom: 0px;
+}
+
+.icon-remove {
+  top: 17px;
+  right: 10px;
+  color: #FCFDFF;
+}

@@ -1,0 +1,500 @@
+.wrapper-table {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  padding: 0 40px;
+}
+
+.text-created {
+  font-family: Ubuntu-Regular,Tahoma,sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 150%;
+  color: var(--gray-scale-700);
+}
+
+.icon__wrapper__h__claim {
+  object-fit: contain;
+}
+
+.icon__wrapper__file__claim {
+  width: 7px;
+  height: 15px;
+  margin-top: 45px;
+  margin-right: 14px;
+}
+
+.time__progress__claim {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+
+.table {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.tableClaim {
+  margin: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.table td {
+  border-top: none;
+}
+
+.table tr {
+  border-bottom: 1px solid #A8AFB5 !important;
+}
+
+.limit__text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  /* number of lines to show */
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.day__text__claim {
+  font-size: 18px;
+  font-family: Ubuntu-Regular,Tahoma,sans-serif;
+  font-weight: 400;
+  line-height: 120%;
+  color: var(--gray-900);
+  display: flex;
+  align-items: center;
+}
+
+.mouth__text__claim {
+  font-family: Ubuntu-Regular,Tahoma,sans-serif;
+  font-weight: 400;
+  line-height: 150%;
+  font-size: 11px;
+  color: var(--gray-900);
+  text-transform: uppercase;
+  margin-top: 1px;
+}
+
+.custom-text__claim {
+  margin-top: 8px !important;
+}
+
+.note__text__claim {
+  font-size: 11px;
+  font-family: Ubuntu-Regular,Tahoma,sans-serif;
+  font-weight: 400;
+  line-height: 150%;
+  color: var(--gray-scale-700);
+  text-transform: capitalize;
+}
+
+.content__text__claim {
+  background: var(--NTUC-24);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 14px;
+  font-family: Ubuntu-Medium,Tahoma,sans-serif;
+  font-weight: 500;
+  line-height: 120%;
+  text-transform: capitalize;
+}
+
+.content__text {
+  background: var(--text-color-default);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-top: 12px;
+}
+
+.fs-24 {
+  font-size: 24px !important;
+}
+
+.text--black {
+  text-transform: capitalize;
+  background: var(--text-color-default);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.td__claim {
+  height: 112px;
+  flex-direction: column;
+  justify-content: space-between;
+  text-transform: capitalize;
+}
+
+.padding-right--0 {
+  padding-right: 0 !important;
+}
+
+.padding-left--0 {
+  padding-left: 0 !important;
+}
+
+.tr_claim:active {
+  border-bottom: 5px solid var(--NTUC-1);
+}
+
+.tr_claim:focus {
+  border: 5px solid var(--NTUC-1);
+}
+
+.tr_claim:active .td__claim, .tr_claim:focus .td__claim {
+  border-bottom: none;
+}
+
+.tooltip-inner {
+  background: var(--NTUC-1);
+  color: #F6F8F9;
+  font-family: Ubuntu-Regular,Tahoma,sans-serif;
+  border: 1px solid var(--NTUC-1);
+  border-radius: 4.8px;
+  max-width: 375px;
+}
+
+.bs-tooltip-top .arrow::before {
+  border: 1px solid var(--NTUC-3);
+  border-top-color: none;
+  border-width: 0 1px 1px 0;
+  background: var(--NTUC-3);
+  width: 12.8px;
+  height: 12.8px;
+  transform: rotate(45deg);
+  left: 10px;
+  top: -6.4px;
+}
+
+.btn.btn-none__claim {
+  padding: 0;
+}
+
+.btn.btn-none__claim:active {
+  box-shadow: none;
+}
+
+.btn.btn-none__claim:focus {
+  box-shadow: none;
+}
+
+.w-105 {
+  width: 105px
+}
+
+.text--uppercase {
+  text-transform: uppercase;
+}
+
+.text-align--start {
+  text-align: left;
+}
+
+.opacity--0 {
+  opacity: 0;
+}
+
+.margin-top--42 {
+  margin-top: 42px;
+}
+
+.mt--33 {
+  margin-top: 33px !important;
+}
+
+.btn__claim.btn__table__claim {
+  margin-top: 40px;
+  padding: 7px 13px;
+  background: var(--NTUC-1);
+  box-shadow: inset 0px 0px 7px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.btn__claim.btn__table__claim:hover {
+  background: var(--NTUC-1);
+  color: #fff;
+}
+
+.btn__claim.btn__table__claim:focus {
+  background: var(--NTUC-1);
+  box-shadow: 0px 0px 0px 4px #ff7db5;
+  color: #fff;
+}
+
+.btn__claim.btn__table__claim:active {
+  background: var(--NTUC-1);
+  box-shadow: 0px 0px 0px 4px #ff7db5;
+  color: #fff;
+}
+
+.btn__text__table__claim {
+  font-size: 16px;
+  font-family: Ubuntu-Light,Tahoma,sans-serif;
+  text-transform: uppercase;
+  color: #F6F8F9;
+}
+
+.icon__plus__alt__table {
+  width: 16px;
+  height: 16px;
+}
+
+.icon__no__data {
+  width: 275.03px;
+  height: 188.57px;
+  margin-top: 100px;
+}
+
+.text__no__data {
+  font-family: Ubuntu-Medium,Tahoma,sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 120%;
+  color: var(--gray-scale-700);
+  text-align: center;
+  margin-bottom: 140px;
+  text-transform: capitalize;
+}
+
+.width--130 {
+  width: 130px;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.mt-12 {
+  margin-top: 12px;
+}
+
+.col-icon-top {
+  margin-top: 12px;
+}
+
+.icon__state__claim {}
+
+.icon__schema--desktop {
+  display: block;
+}
+
+.icon__schema--mobile {
+  display: none;
+}
+
+.mt-35 {
+  margin-top: 35px;
+}
+
+.mt--10 {
+  margin-top: 10px;
+}
+
+.icon-circle {
+  width: 16px;
+  height: 16px;
+  color: var(--NTUC-1);
+  margin-top: 40px;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.mb--30 {
+  margin-bottom: 30px;
+}
+
+.wrapper-table__choose__log {
+  border: 1px solid #A8AFB5;
+  border-radius: 4px;
+}
+
+.icon-x {
+  width: 16px;
+  height: 16px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.display__mobile--hidden {
+  display: block !important;
+}
+
+.display__mobile--show {
+  display: none !important;
+}
+.td__claim.padding-left--0{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mr__top {
+  margin-top: 42px;
+}
+
+.custom__text {
+  margin-top: 28px !important;
+}
+
+.custom__hidden__height {
+  height: 21px;
+}
+
+@media screen and (min-width: 1367px) and (max-width: 1600px) {
+  .custom-text__claim {
+    margin-top: 15px !important;
+  }
+  .custom__text {
+    margin-top: 37px !important;
+  }
+}
+
+@media screen and (min-width: 1601px) {
+  .custom-text__claim {
+    margin-top: 30px !important;
+  }
+  .custom__text {
+    margin-top: 50px !important;
+  }
+}
+
+@media (max-width: 1600px) {
+  .table th, .table td {
+    padding: 10px;
+  }
+  .mr__top {
+    margin-top: 24px;
+  }
+  .td__claim {
+    height: auto;
+  }
+  .fs-24{
+    font-size: 18px !important;
+  }
+  .icon__state__claim {}
+}
+@media (max-width: 1440px) {
+  .table th, .table td {
+    padding: 9px 16px;
+  }
+
+  .fs-24{
+    font-size: 16px !important;
+  }
+  .icon__state__claim {}
+
+  .time__progress__claim {
+    width: 48px;
+    height: 48px;
+  }
+}
+@media (max-width: 1366px) {
+  .icon__wrapper__file__claim {
+    margin-top: 32px
+  }
+  .icon__state__claim {}
+  .time__progress__claim {
+    width: 30px;
+    height: 30px;
+  }
+}
+@media (max-width: 991px) {
+  .note__text__claim {
+    margin-top: 0;
+    margin-right: 12px;
+  }
+
+  .table {
+    width: 100%;
+    margin: 0;
+  }
+
+  .table tr {
+    margin-top: 16px;
+    padding: 10px
+  }
+
+  .table td {
+    padding: 16px 0 0 0;
+  }
+
+  .td__claim {
+    display: block;
+    height: auto;
+  }
+
+  .display__none {
+    display: none;
+  }
+
+  .note__text__claim.mt--12 {
+    margin-top: 12px;
+  }
+
+  .content__text__claim, .content__text {
+    margin-top: 0;
+  }
+
+  .mb-10 {
+    margin-bottom: 10px;
+  }
+
+  .btn__claim.btn__table__claim {
+    margin-top: 0;
+  }
+
+  .margin-top--42 {
+    margin-top: 0;
+  }
+
+  .wrapper__supp__log {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .wrapper__supp__claim {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .icon__schema--desktop {
+    display: none;
+  }
+
+  .icon__schema--mobile {
+    display: block;
+    margin-left: 20px;
+  }
+
+  .display__mobile--hidden {
+    display: none !important;
+  }
+
+  .display__mobile--show {
+    display: block !important;
+  }
+  .icon__state__claim {}
+  .wrapper__icon__claim {
+    margin-bottom: 25px;
+  }
+}
+@media (max-width: 768px) {
+  .day__text__claim {
+    font-size: 48px;
+  }
+  .note__text__claim ,
+  .mouth__text__claim {
+    font-size: 14px;
+  }
+  .fs-24 {
+    font-size: 24px !important;
+  }
+}

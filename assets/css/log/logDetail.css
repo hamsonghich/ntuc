@@ -1,0 +1,34 @@
+::v-deep .input-log-detail {
+  height: 40px;
+  border: none !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.42) !important;
+  background: #eeeeee !important;
+  border-radius: 0;
+}
+
+.btn-edit-log {
+  width: 30px;
+  height: 30px;
+  background-color: var(--NTUC-25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+
+.btn-edit-log img {
+  width: 16px;
+  height: 16px;
+}
+
+::v-deep .stylesInputLog input.disabled-input-log {
+  background: var(--color-disabled) !important;
+}
+.wrapper-status-input {
+  width: calc(100% - 40px - 10px);
+}
+.wrapper-icon {
+  width: 40px;
+}
+.wrapper-icon img {
+  width: 20px;
+  height: 20px;
+}

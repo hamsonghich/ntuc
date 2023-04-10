@@ -1,0 +1,25 @@
+.container__log {
+  padding: 56px 36px 50px;
+  max-width: 1673px;
+}
+
+.container__log {
+  min-height: 918px;
+}
+.container__log.block-step-complete {
+  min-height: 686px;
+  height: 686px;
+}
+
+.icon__close__dark {
+  width: 28px;
+  height: 28px;
+}
+
+.color--orange {
+  color: #F7A604;
+}
+.btn-close {
+  top: 15px;
+  right: -100px;
+}

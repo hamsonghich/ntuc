@@ -1,0 +1,108 @@
+.btn-form-builder {
+    padding: 7px 13px;
+    background: #002C77;
+    border-radius: 4px;
+}
+
+.color-card {
+    max-width: 368px;
+    box-shadow: 0 16px 48px rgb(0 0 0 / 18%);
+}
+
+.img-first-row {
+    height: 200px;
+}
+
+.descrip-text {
+    padding: 25.5px 20px 56px;
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.desctip-title {
+    color: #A8AFB5;
+}
+
+.row-gap {
+    gap: 30px 73px;
+}
+
+.line-gradian {
+    width: 99.25%;
+    margin: 0 6px 10px 0;
+    border-top: 1px solid #002c77;
+}
+
+.descrip-name {
+    color: #002c77;
+}
+
+.container-button {
+    bottom: 14px;
+    right: 20px;
+}
+
+.span-title {
+    max-width: 500px;
+}
+
+.btn-back-home {
+    width: 150px;
+    height: 38px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+@media screen and (min-device-width: 1000px) and (max-device-width: 1920px) {
+  .card-custom{
+    max-width: 32% !important;
+  }
+  .card-custom:nth-child(3n) {
+    right: 0px !important;
+    left: unset !important
+    }
+  .card-custom:nth-child(3n + 1) {
+    left: 0px !important;
+  }
+}
+@media screen and (min-device-width: 1700px) and (max-device-width: 1900px) {
+    .btn-back-home{
+        margin-right: 10px;
+    }
+    .line-gradian{
+        width: 99%;
+    }
+}
+@media screen and (min-device-width: 1200px) and (max-device-width: 1700px) {
+    .row-gap {
+        gap: 20px 32px;
+    }
+    .color-card {
+        max-width: 368px
+    }
+    .line-gradian{
+        width: 100%;
+    }
+    .btn-back-home{
+        margin-right: 0px;
+    }
+}
+@media screen and (max-width:1600px) {
+    .row-gap {
+        gap: 25px 32px;
+    }
+}
+
+@media screen and (min-device-width: 1900px) {
+    .container-reader {
+        max-width: 1500px;
+        margin: auto
+    }
+
+    .color-card {
+        max-width: 30%;
+    }
+
+    .row-gap {
+        gap: 35px 70px;
+    }
+}

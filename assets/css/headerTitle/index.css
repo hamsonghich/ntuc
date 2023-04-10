@@ -1,0 +1,23 @@
+.header_title {
+	color: var(--color-black);
+	flex: none;
+	order: 0;
+	flex-grow: 1;
+}
+
+@media only screen and (max-width: 1540px) {
+	.header_title {
+		font-size: 32px;
+		padding-bottom: 0px;
+	}
+}
+
+@media(max-width: 500px) {
+	.header_title {
+		font-weight: 500;
+		font-size: 32px;
+		line-height: 72px;
+		padding-bottom: 50px;
+		font-family: Ubuntu-Medium, Tahoma, sans-serif;
+	}
+}

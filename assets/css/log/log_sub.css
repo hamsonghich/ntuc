@@ -1,0 +1,40 @@
+.container__log {
+  min-height: 918px;
+}
+
+.container__log.block-step-complete {
+  min-height: 686px;
+}
+
+.cart__log {
+  background: var(--white);
+  box-shadow: 0px 16px 48px rgba(0, 0, 0, 0.175);
+  min-height: 400px;
+}
+
+.icon__close__dark {
+  width: 28px;
+  height: 28px;
+}
+
+.color--orange {
+  color: #f7a604;
+}
+
+.btn-close {
+  top: 15px;
+  right: -100px;
+}
+
+.alert-wrapper-success {
+  height: 40px;
+  border-radius: 4px;
+  background: #4caf50;
+  margin-bottom: 26px;
+}
+.alert-wrapper-fail {
+  height: 64px;
+  border-radius: 4px;
+  background: #ff5252;
+  margin-bottom: 26px;
+}

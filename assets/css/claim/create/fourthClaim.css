@@ -1,0 +1,66 @@
+.tooltip-arrow,
+.red-tooltip + .tooltip > .tooltip-inner {
+  background-color: #f00;
+}
+::v-deep .tooltip-inner,
+.tooltip-arrow {
+  background-color: var(--NTUC-1);
+  position: relative;
+  z-index: 100;
+  font-family: Ubuntu-Regular,Tahoma,sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #fcfdff;
+}
+@media only screen and (max-width: 1440px) {
+  .claim-create_upload_file .session__input {
+    margin-top: 16px;
+  }
+  .claim-create_upload_file .text__title__log {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+  .claim-create_upload_file ::v-deep .box-update {
+    width: 100%;
+    max-width: 100px !important;
+  }
+  .claim-create_upload_file ::v-deep .dropdown__log .vue-dropzone {
+    width: 100%;
+    height: 100px;
+    min-height: auto;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .claim-create_upload_file ::v-deep .description {
+    max-height: 100px;
+    max-width: calc(100% - 100px);
+    padding-left: 24px;
+  }
+  .claim-create_upload_file ::v-deep .dropdown__log img.icon__upload{
+    width: 25px;
+    height: 25px;
+  }
+  .claim-create_upload_file ::v-deep .dropdown__log .content__upload__log {
+    font-size: 12px;
+    line-height: 1;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  .claim-create_upload_file .session__input {
+    margin-top: 8px;
+  }
+  .claim-create_upload_file .text__title__log {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  .claim-create_upload_file .claim_noti{
+    padding-top: 8px !important;
+  }
+  .claim-create_upload_file ::v-deep .question__quick__log {
+    margin-bottom: 0 !important;
+  }
+}

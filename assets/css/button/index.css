@@ -1,0 +1,63 @@
+.btn__primary {
+  background: var(--NTUC-3) !important;
+  border: 1px solid var(--NTUC-3) !important;
+  padding: 7px 20px;
+}
+
+.btn__primary:hover,
+.btn__primary:focus,
+.btn__primary:active {
+  background: var(--NTUC-3) !important;
+  border: 1px solid var(--NTUC-3-light) !important;
+  box-shadow: 0 0 0 0.2rem var(--NTUC-3-light) !important;
+}
+
+.btn__orange {
+  background: var(--NTUC-1) !important;
+  border: 1px solid var(--NTUC-1) !important;
+  padding: 7px 20px;
+}
+
+.btn__orange:hover,
+.btn__orange:focus,
+.btn__orange:active {
+  background: var(--NTUC-1) !important;
+  border: 1px solid var(--NTUC-1-light) !important;
+  box-shadow: 0 0 0 0.2rem var(--NTUC-1-light) !important;
+}
+
+.btn__reset {
+  background: var(--NTUC-1) !important;
+  border: 1px solid var(--NTUC-1) !important;
+  padding: 7px 13px;
+  width: 68px;
+}
+
+.btn__back {
+  background: var(--NTUC-2) !important;
+  border: 1px solid var(--NTUC-2) !important;
+  padding: 7px 13px;
+  width: 61px;
+}
+
+.btn__back:hover,
+.btn__back:focus,
+.btn__back:active {
+  background: var(--NTUC-2) !important;
+  border: 1px solid var(--NTUC-2-light) !important;
+  box-shadow: 0 0 0 0.2rem var(--NTUC-2-light) !important;
+}
+
+.btn__NTUC--18 {
+  background: var(--NTUC-18) !important;
+  border: 1px solid var(--NTUC-18) !important;
+  padding: 7px 20px;
+}
+
+.btn__NTUC--18:hover,
+.btn__NTUC--18:focus,
+.btn__NTUC--18:active {
+  background: var(--NTUC-3) !important;
+  border: 1px solid var(--NTUC-3-light) !important;
+  box-shadow: 0 0 0 0.2rem var(--NTUC-3-light) !important;
+}

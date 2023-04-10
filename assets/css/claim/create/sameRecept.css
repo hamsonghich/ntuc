@@ -1,0 +1,232 @@
+.currency-type {
+  width: 75px;
+}
+
+.col-custome {
+  gap: 5px;
+}
+
+.converted {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--NTUC-9);
+  margin-bottom: 5px;
+}
+
+.converted-unit {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--NTUC-1);
+}
+
+.converted-icon {
+  height: 10px;
+  margin: 0 2px;
+}
+
+.checkbox-label {
+  margin-right: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--color-black);
+}
+
+.referral-btn {
+  height: 50px;
+  background: var(--NTUC-1);
+  padding: 7px 13px;
+  border-radius: 4px;
+  color: #ffffff;
+  display: flex;
+  flex: row;
+  align-items: center;
+  gap: 8px;
+  border: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.input_remarks {
+  padding: 7px 13px;
+  border: 1px solid #cde;
+  border-radius: 3px;
+  font-size: 18px;
+}
+
+.text-footer {
+    font-family: Ubuntu-Light,Tahoma,sans-serif;
+
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: var(--NTUC-3);
+}
+
+.referral-input>>>input {
+  margin: 0;
+}
+
+.referral-modal-title {
+  font-family: Ubuntu-Medium,Tahoma,sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  color: var(--NTUC-1);
+  margin-bottom: 16px;
+}
+
+.referral-modal {
+  max-width: 914px;
+  width: 100%;
+}
+
+.input-date {
+  margin: 14px 0px 7px 0;
+}
+
+.referral-cancel {
+  padding: 9px 17px;
+  background: #DEE6EE;
+  border-radius: 4.8px;
+  border: none;
+  font-family: Ubuntu-Light,Tahoma,sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: #81819C;
+}
+
+.referral-submit {
+  padding: 9px 17px;
+  background: var(--NTUC-3);
+  border-radius: 4.8px;
+  border: none;
+  font-family: Ubuntu-Light,Tahoma,sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+::v-deep .modal-content {
+  border-radius: 8px;
+  padding: 0px 30px;
+}
+
+::v-deep .modal-title {
+  font-family: Ubuntu-Medium,Tahoma,sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 120%;
+  color: var(--NTUC-1);
+}
+
+.icon__file {
+  width: 14px;
+  height: 14px;
+  margin: 3.5px 8px 3.5px 0;
+}
+
+.limit__text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+  font-family: Ubuntu-Regular,Tahoma,sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--NTUC-3);
+  max-width: 220px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.input-claim-cs {
+  color: black;
+  font-size: 18px;
+}
+
+/* .input_disabled {
+  color: black;
+  padding: 12px 35px 12px 17px !important;
+  background: #e9ecef !important;
+} */
+
+.img-tooltip {
+  background: var(--NTUC-7);
+  border-radius: 8px;
+  padding: 8px 16px;
+  gap: 8px;
+}
+
+.icon_noti_mb {
+  width: 16px;
+  height: 16px;
+}
+
+.info-title {
+  font-family: Ubuntu-Bold,Tahoma,sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  color: #066898;
+}
+
+.referral-subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #066898;
+}
+
+.edit-claim-title {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+@media (max-width: 1440px) {
+  .input-claim-cs ,
+  .input_remarks {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1263px) {
+  .paddingLetter{
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (max-width: 991px) {
+  .referral-group {
+    flex-direction: column !important;
+    gap: 10px;
+  }
+
+  .referral-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .button-gr {
+    display: flex;
+    flex-direction: column-reverse !important;
+    gap: 20px;
+  }
+
+  .button-it {
+    width: 100%;
+  }
+}

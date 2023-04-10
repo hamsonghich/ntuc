@@ -1,0 +1,433 @@
+.f-container {
+  margin: 30px 0;
+}
+
+.col-item {
+  max-width: 188px;
+}
+
+.col-item>p {
+  max-width: 160px;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+
+.form-radio-1,
+.check-box-item {
+  max-width: 188px;
+  border-left: 1px solid #cccc;
+}
+
+.form-checkbox-1 {
+  width: 80px;
+  height: 45px;
+  border: 1px solid #CED4DA;
+  border-radius: 4.8px;
+}
+
+.question-title {
+  border-left: 1px solid #cccc;
+}
+
+.form-4 {
+  background: rgba(0, 0, 0, 0.12);
+}
+
+.form-question {
+  max-width: 388px;
+}
+
+.validate-error {
+  height: 400px;
+}
+
+.custom-radio {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.btn__back {
+  background: var(--NTUC-2) !important;
+  border: 1px solid var(--NTUC-2) !important;
+  padding: 7px 13px;
+  width: 150px;
+  height: 38px;
+  border-radius: 4px;
+}
+
+.btn__back:hover,
+.btn__back:focus,
+.btn__back:active {
+  background: var(--NTUC-2) !important;
+  border: 1px solid var(--NTUC-2-light) !important;
+  box-shadow: 0 0 0 0.2rem var(--NTUC-2-light) !important;
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+  .form-question {
+    max-width: 25%;
+  }
+
+  .form-radio-1,
+  .check-box-item {
+    max-width: 15%;
+  }
+
+  .col-item {
+    max-width: 15%;
+  }
+
+  .f-wrapper {
+    max-width: 1200px !important;
+  }
+
+}
+
+.btn-step-skip {
+  width: 170px;
+  padding: 6px 32px;
+  border: 1px solid #F15A22;
+}
+
+.btn-step-skip:hover,
+.btn-step-skip:focus,
+.btn-step-skip:active {
+  color: var(--NTUC-6);
+  box-shadow: 0 0 0 0.2rem var(--NTUC-6) !important;
+}
+
+.policy-container {
+  margin-top: 40px;
+  letter-spacing: 0.25px
+}
+
+.purpose-contain {
+  list-style-type: none;
+}
+
+.f-wrapper {
+  max-width: 1373px;
+  gap: 20px;
+}
+
+.f-title {
+  font-weight: 500;
+  line-height: 32px;
+  color: var(--NTUC-6);
+}
+
+.f-particulars {
+  gap: 20px;
+}
+
+.f-group-input label {
+  font-size: 16px;
+  line-height: 150%;
+  color: #212529;
+}
+
+.f-family-history {
+  gap: 10px;
+}
+
+.family-history-form {
+  padding: 10px 0px;
+  gap: 40px;
+}
+
+.form-element {
+  gap: 10px;
+}
+
+.h-48px :deep(input) {
+  height: 48px;
+}
+
+.fh-text {
+  color: var(--gray-900);
+  letter-spacing: 0.5px;
+  line-height: 24px;
+}
+
+.f-plus-icon {
+  margin-right: 10px;
+  height: 24px;
+  width: 24px;
+}
+
+.f-form-detail {
+  gap: 10px;
+}
+
+.f-form-row {
+  gap: 10px;
+}
+
+.f-form-label {
+  padding: 10px;
+  background: var(--gray-700);
+  color: #FCFDFF;
+}
+
+.f-form-input {
+  height: 48px;
+  padding: auto 17px;
+}
+
+.f-form-label-a {
+  max-width: 400px;
+}
+
+.f-form-label-b {
+  max-width: 709px;
+}
+
+.f-form-label-c {
+  max-width: 204px;
+}
+
+.f-form-label-d {
+  max-width: 923px;
+}
+
+.f-form-button {
+  padding: 7px 13px;
+  max-width: 109px;
+  background: #0D6EFD;
+  border-radius: 4px;
+  color: var(--white);
+}
+
+.benefit-link {
+  color: #1e88e5;
+}
+
+:deep(.information-dialog-footer .btn-primary) {
+  background: var(--NTUC-3);
+  border-radius: 4px;
+}
+
+.loading-rotate {
+  animation: rotate 3s linear infinite;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.completed-benefit-text {
+  color: #1e88e5;
+  font-size: 23px;
+  line-height: 32px;
+}
+
+.benefit-title {
+  color: #1E88E5;
+}
+
+.benefit-more {
+  color: #cfd8dc;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+}
+
+.completed-loading-backdrop {
+  background: #212121;
+  opacity: 86%;
+}
+
+:deep(.information-dialog-header .close) {
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.step_mobile {
+  display: none;
+}
+
+.step_desktop {
+  display: block;
+}
+
+.btn__orange {
+  background: var(--NTUC-6) !important;
+  border: 1px solid var(--NTUC-6) !important;
+  padding: 7px 13px;
+  width: 150px;
+  height: 38px;
+  border-radius: 4px;
+}
+
+.btn__orange_mod {
+  background: var(--NTUC-6) !important;
+  border: 1px solid var(--NTUC-6) !important;
+  padding: 7px 13px;
+  width: 350px;
+  height: 38px;
+  border-radius: 4px;
+}
+
+.btn__orange:hover,
+.btn__orange:focus,
+.btn__orange:active {
+  background: var(--NTUC-6) !important;
+  border: 1px solid var(--NTUC-6-light) !important;
+  box-shadow: 0 0 0 0.2rem var(--NTUC-6-light) !important;
+}
+
+.btn__ok:hover,
+.btn__ok:focus,
+.btn__ok:active {
+  background: var(--NTUC-3) !important;
+  border: 1px solid var(--NTUC-3-light) !important;
+  box-shadow: 0 0 0 0.2rem var(--NTUC-3-light) !important;
+}
+
+@media (max-width: 768px) {
+  .step_mobile {
+    display: block;
+  }
+
+  .step_desktop {
+    display: none;
+  }
+
+  .progressbar-mobile {
+    counter-reset: step;
+    padding: 0;
+    table-layout: fixed;
+  }
+
+  .progressbar-mobile-id {
+    background: #D4D4D4;
+    color: var(--white);
+    height: 32px;
+    line-height: 22px;
+    width: 32px;
+    padding: 5px 0 0 0;
+    margin: 0 auto 10px;
+  }
+
+  .progressbar-mobile div .progressbar-mobile-title {
+    color: #D4D4D4;
+  }
+
+  .progressbar-mobile div.active .progressbar-mobile-title,
+  .progressbar-mobile div.complete .progressbar-mobile-title {
+    color: #333333;
+  }
+
+  .progressbar-mobile div.active .progressbar-mobile-id,
+  .progressbar-mobile div.complete .progressbar-mobile-id {
+    background: var(--NTUC-1);
+    border-color: var(--NTUC-1);
+    color: var(--white);
+  }
+
+}
+
+.progressbar {
+  counter-reset: step;
+  padding: 0;
+  table-layout: fixed;
+}
+
+.progressbar div {
+  list-style: none;
+  display: table-cell;
+  color: #D4D4D4;
+}
+
+.progressbar div:before {
+  background: #D4D4D4;
+  border-radius: 50%;
+  color: var(--white);
+  content: counter(step);
+  counter-increment: step;
+  display: block;
+  height: 32px;
+  line-height: 22px;
+  margin: 0 auto 10px;
+  text-align: center;
+  width: 32px;
+  padding: 5px 0 0 0;
+}
+
+.progressbar div:after {
+  background: #D4D4D4;
+  content: '';
+  height: 3px;
+  left: 50%;
+  position: absolute;
+  top: 15px;
+  width: 100%;
+  z-index: -1;
+}
+
+.progressbar div.active:after {
+  background: linear-gradient(to right, var(--NTUC-1) 50%, #D4D4D4 50%) !important;
+}
+
+.progressbar div:last-child:after {
+  content: none;
+}
+
+.progressbar div.active:after,
+.progressbar div.complete:after {
+  background: var(--NTUC-1);
+}
+
+.progressbar div.active:before,
+.progressbar div.complete:before {
+  background: var(--NTUC-1);
+  border-color: var(--NTUC-1);
+  color: var(--white);
+}
+
+.progressbar div.active,
+.progressbar div.complete {
+  color: #333333;
+}
+
+.box_submit {
+  display: flex;
+  justify-content: space-between;
+  background: #ff5252;
+  border-radius: 4px;
+  padding: 10px 24px;
+  width: 1200px;
+  margin: 0 auto 50px auto;
+}
+
+.box_submit .content {
+  display: flex;
+  align-items: center;
+}
+
+.box_submit .content img {
+  width: 20px;
+  height: 20px;
+}
+
+.box_submit .content p {
+  font-family: Ubuntu-Regular, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  margin-bottom: 0;
+  color: #fcfdff;
+  padding-left: 12px;
+}
+
+.box_submit .close {
+  cursor: pointer;
+}
+
+.box_submit .close img {
+  width: 100%;
+  height: auto;
+}

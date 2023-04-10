@@ -1,0 +1,38 @@
+.title__log__step {
+  color: var(--NTUC-1);
+  margin-bottom: 16px;
+}
+
+.stepper {
+  width: 240px;
+  z-index: 999 !important;
+}
+
+.stepper .line {
+  width: 2px;
+}
+
+.text__step__log {
+  line-height: 22px;
+  width: 32px;
+  height: 31px;
+  position: relative;
+  z-index: 9;
+}
+
+.bg__primary {
+  background: var(--NTUC-3);
+}
+
+.bg__disabled {
+  background: #d5d5d5;
+}
+
+.title__step__log {
+  line-height: 150%;
+  color: #333333;
+}
+
+.content__step__log {
+  color: #888888;
+}

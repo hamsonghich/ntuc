@@ -1,0 +1,99 @@
+.db-container {
+  padding: 30px 100px;
+}
+
+.db-wrapper {
+  max-width: 1240px;
+  padding: 0 110px;
+}
+
+.benefit-card {
+  padding: 20px 16px;
+  max-width: 500px;
+  border-top: 4px solid var(--NTUC-3);
+  border-bottom: 1px solid var(--border-cart);
+  border-right: 1px solid var(--border-cart);
+  border-left: 1px solid var(--border-cart);
+  border-radius: 4px;
+}
+
+.benefit-card-label {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.price-flex {
+  max-width: 100px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.bn-col-card {
+  max-width: 500px;
+}
+
+.description-text {
+  color: var(--gray-800);
+  letter-spacing: 0.5px;
+}
+
+.confirm-benefit {
+  border-radius: 28px;
+}
+
+.plan-button {
+  padding: 7px 13px;
+}
+
+.pd-child:nth-child(2n+1) {
+  padding: 0 15px 0 0;
+}
+
+.pd-child:nth-child(2n) {
+  padding: 0 0 0 15px;
+}
+
+.wrapper__sidebar {
+  border-left: 1.2px solid var(--NTUC-18);
+  padding-left: 70px;
+}
+
+.text-decoration-underline-ntuc {
+  text-decoration: underline;
+}
+
+@media (max-width: 992px) {
+  .db-container {
+    padding: 30px 20px;
+  }
+
+  .db-wrapper {
+    padding: 0 50px;
+  }
+
+  .benefit-card {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper__sidebar {
+    border: none;
+    padding-left: 0px;
+    margin-top: 10px;
+  }
+
+  .pd-child:nth-child(2n+1) {
+    padding: 0;
+  }
+
+  .pd-child:nth-child(2n) {
+    padding: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .db-wrapper {
+    padding: 10px;
+  }
+}
